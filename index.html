@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Report</title>
+    <link rel="stylesheet" href="public/bootstrap.min.css" />
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <body>
+    <section class="text-center text-light bg-dark jumbotron jumbotron-fluid">
+      <h4><span class="text-success">NIGERIA</span> COVID-19 <span class="text-success"> REPORT</span></h4>
+      <img src="public/images/coat.png" width="100px" height="80px">
+      <img src="public/images/cov1.png" width="130px" height="85px" margin-left="500">
+    </section>
+
+    <main class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card mb-3 text-white bg-dark">
+            <div class="card-header nigeria text-center bg-success"></div>
+            <div class="card-body row">
+                <div class="col-sm-3 text-center mt-3">
+                <h6 class="card-title">Confirmed</h6>
+                 <p class="nigeria__confirmed_cases card-text btn btn-outline-primary"></p>
+                </div>
+
+                <div class="col-sm-3 text-center mt-3">
+                  <h6 class="card-title">Active </h6>
+                  <p class="nigeria__active_cases card-text btn btn-outline-warning"></p>
+                </div>
+
+                <div class="col-sm-3 text-center mt-3">
+                  <h6 class="card-title">Discharged</h6>
+                  <p class="nigeria__discharge_cases card-text btn btn-outline-success"></p>
+                </div>
+
+                <div class="col-sm-3 text-center mt-3">
+                  <h6 class="card-title">Death</h6>
+                  <p class="nigeria__death_cases card-text btn btn-outline-danger"></p>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+       <section class="row">
+            <div class="input-group mb-3 md-form mt-0 col-sm-12">
+              <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">search</span>
+            </div>
+            <input type="text" class="form-control" placeholder="by state name" id="filter"
+            name="filter" aria-label="state name"/>
+              </div>
+       </section>
+      
+      <section class="row states mt-5">
+
+<!-- <div class="col-sm-6">
+      <div class="card mb-3 text-white bg-info">
+        <div class="card-header  text-center"></div>
+          <div class="card-body row text-center mt-3">
+              <div class="col-sm-4 mt-3">
+                <h6 class="card-title">Confirmed Cases</h6>
+                <p class=" card-text btn btn-outline-primary"></p>
+              </div>
+
+              <div class="col-sm-4 mt-3">
+                <h6 class="card-title">Discharged </h6>
+                <p class="card-text btn btn-outline-dark"></p>
+              </div>
+
+              <div class="col-sm-4 mt-3">
+                <h6 class="card-title">Death </h6>
+                <p class=" card-text btn btn-outline-danger"></p>
+              </div>
+
+            </div>
+          </div>
+        </div> -->
+
+
+      </section>
+    </main>
+
+    <footer class="text-center mt-5 mb-3">
+        
+      💓 💓<a href="https://www.linkedin.com/in/chinonso-ubadire-ogbonna-31a0b11a4" class="text-success">@OgbonnaChinonso</a>💓💓
+        
+    </footer>
+  </body>
+  <script src="public/app.js"></script>
+  <script src="public/api.js"></script>
+</html>
